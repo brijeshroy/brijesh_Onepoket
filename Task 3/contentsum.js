@@ -4,7 +4,7 @@ Task 3 :-   Create a Node.js script that reads a text file named "data.txt" and 
  */
 const fs = require('fs')
 
-
+console.log("New mission")
 let x = __dirname + "\\data.txt"     // line ABC
 
 fs.readFile(x, 'utf-8', (error, info) => {
